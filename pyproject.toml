@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "x402-0mod-tools"
+version = "1.0.0"
+authors = [
+  { name="0mod Team" },
+]
+description = "LangChain and CrewAI tools for 0mod HTTP 402 API Gateway (stealth-dom, airgap-scrub, rag-shrink)"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "requests>=2.28.0",
+    "pydantic>=2.0.0",
+]
+
+[project.urls]
+"Homepage" = "https://api.0mod.com"
+"Repository" = "https://github.com/jerfletcher/x402-0mod-tools"
