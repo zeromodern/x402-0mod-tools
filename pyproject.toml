@@ -23,4 +23,4 @@ dependencies = [
 
 [project.urls]
 "Homepage" = "https://api.0mod.com"
-"Repository" = "https://github.com/jerfletcher/x402-0mod-tools"
+"Repository" = "https://github.com/zeromodern/x402-0mod-tools"
